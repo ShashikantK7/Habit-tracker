@@ -1,12 +1,19 @@
-pip install streamlit pandas plotly sqlalchemy psycopg2-binary
+git clone https://github.com/ShashikantK7/Habit-tracker.git
+   cd Habit-tracker
    ```
+
+2. Install dependencies:
+   ```bash
+   pip install streamlit pandas plotly sqlalchemy psycopg2-binary
+   ```
+
 3. Set up PostgreSQL database and configure the following environment variables:
-   - DATABASE_URL: PostgreSQL database connection URL
-   - PGHOST: Database host
-   - PGPORT: Database port
-   - PGUSER: Database user
-   - PGDATABASE: Database name
-   - PGPASSWORD: Database password
+   - `DATABASE_URL`: PostgreSQL database connection URL
+   - `PGHOST`: Database host
+   - `PGPORT`: Database port
+   - `PGUSER`: Database user
+   - `PGDATABASE`: Database name
+   - `PGPASSWORD`: Database password
 
 4. Run the application:
    ```bash
